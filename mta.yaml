@@ -49,7 +49,7 @@ modules:
       target-path: resources/
 - name: sapbtphelloworldclone
   type: html5
-  path: .
+  path: helloworldclone
   build-parameters:
     build-result: dist
     builder: custom
