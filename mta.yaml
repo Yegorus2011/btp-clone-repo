@@ -83,7 +83,6 @@ resources:
     service: xsuaa
     service-name: sapbtphelloworldclone-xsuaa-service
     service-plan: application
-    # *** FIX: Added mandatory config block for security service deployment ***
     config:
       xsappname: sapbtphelloworldclone
       tenant-mode: dedicated
@@ -94,5 +93,3 @@ resources:
     service-name: sapbtphelloworldclone-html5-service
     service-plan: app-host
 parameters:
-  deploy_mode: html5-repo
-  enable-parallel-deployments: true
