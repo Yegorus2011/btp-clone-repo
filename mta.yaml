@@ -83,6 +83,7 @@ resources:
     service: xsuaa
     service-name: sapbtphelloworldclone-xsuaa-service
     service-plan: application
+    # *** FIX: Added mandatory config block for security service deployment ***
     config:
       xsappname: sapbtphelloworldclone
       tenant-mode: dedicated
